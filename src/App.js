@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
+// import About from './components/About';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar title="WordCounter" />
       <div className="container">
         <Textform heading="Enter the text to analyze below"/>
+        {/* <About /> */}
       </div>
     </>
   );

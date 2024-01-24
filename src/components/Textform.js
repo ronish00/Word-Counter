@@ -33,7 +33,7 @@ function Textform(props) {
             <div className='container'>
                 <h1 className='my-3'>{props.heading}</h1>
                 <div className="mb-3">
-                    <label htmlFor="myBox" className="form-label">Example textarea</label>
+                    <label htmlFor="myBox" className="form-label">Paste or write your word here</label>
                     <textarea className="form-control" value={text} onChange={handleChange} onFocus={handleFocus} id="myBox" rows="8"></textarea>
                     <button className="my-3 btn btn-primary" onClick={handleUpClick}>{btnText}</button>
                 </div>
